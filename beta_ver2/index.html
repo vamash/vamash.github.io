@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QRP-Planet</title>
+	<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+	<div id="bg"></div>
+	<div id="wrapper">
+
+		<div id="mute"></div>
+
+		<div id="shop_border">
+			<div id="shop"></div>
+		</div>
+
+		<div id="map_border">
+			<div id="map">
+				<div id="player"></div>
+			</div>
+		</div>
+		<div id="main_border">
+			<div id="main">
+
+				<div id="main_top" class="clearfix">
+					<div id="main_top_left">
+						<div class="gameImage">
+							<img id="image">
+							<img id="enemy">
+							<img src="images/main/knight.png" id="knight">
+							<div class="hpBar">
+								<span></span>
+								<div class="hp"></div>
+								<div class="line"></div>
+							</div>
+							<div class="hpBar">
+								<span></span>
+								<div class="hp"></div>
+								<div class="line"></div>
+							</div>
+						</div>
+						<p id="place">Старая деревня магов</p>
+					</div>
+					<div id="main_top_right">
+						<h2>Игровая информация</h2>
+						<p id="info_player"></p>
+						<p id="output"></p>
+					</div>
+				</div>
+
+				<div id="main_bottom" class="clearfix">
+					<div id="main_bottom_left" class="clearfix">
+						<div id="main_bottom_left_left">
+							<div id="circle">
+								<div id="circle_top"></div>
+								<div id="circle_right"></div>
+								<div id="circle_bottom"></div>
+								<div id="circle_left"></div>
+							</div>
+						</div>
+						<div id="main_bottom_left_right">
+							<span class="action">Атаковать</span>
+							<span class="action">Выпить хилку</span>
+						</div>
+					</div>
+					<div id="main_bottom_right">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="inventory_border">
+			<div id="inventory" class="clearfix">
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+				<div class="tr_inv"></div>
+			</div>
+		</div>
+
+	</div>
+	<audio></audio>
+	<script src="src/main.js"></script>
+	<script src="src/draw.js"></script>
+</body>
+</html>
